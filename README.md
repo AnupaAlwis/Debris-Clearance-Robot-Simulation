@@ -1,18 +1,18 @@
 # 🤖 Debris Clearance Robotic Ground Vehicle Simulation
 
 ## 🌟 Overview
-This project presents the development of an **unmanned ground vehicle** equipped with a robotic arm for post-disaster debris clearance. The system is designed to operate in hazardous environments where human intervention is either risky or impractical. Powered by **solar energy** ☀️, this robot can autonomously clear debris in disaster-stricken areas, assisting in search and rescue operations. 
+This project presents the development of an **unmanned ground vehicle** equipped with a robotic arm for post-disaster debris clearance. The system is designed to operate in hazardous environments where human intervention is either risky or impractical. Powered by **solar energy** , this robot can autonomously clear debris in disaster-stricken areas, assisting in search and rescue operations. 
 
 Using **SolidWorks**, **MATLAB**, and **Simulink**, the robotic arm, gripper, and vehicle were modeled and simulated to ensure accurate debris removal and energy efficiency. 
 
 ---
 
 ## 🚀 Key Features
-- **Unmanned Ground Vehicle**: Designed to navigate uneven terrains and cluttered spaces with obstacles 🛤️.
-- **Robotic Arm with 3 Degrees of Freedom**: Simulated for effective pick-and-place debris removal tasks 🦾.
-- **Energy-Efficient Solar Power**: Solar PV panels power the system, ensuring long-lasting operation in disaster areas ☀️🔋.
-- **MATLAB & Simulink Simulations**: Includes simulations of robotic arm motion, solar panel energy management, and vehicle performance 🖥️.
-- **Remote Control**: Wireless control system allowing operators to manage the robot's movement and operations remotely 📡.
+- **Unmanned Ground Vehicle**: Designed to navigate uneven terrains and cluttered spaces with obstacles .
+- **Robotic Arm with 3 Degrees of Freedom**: Simulated for effective pick-and-place debris removal tasks.
+- **Energy-Efficient Solar Power**: Solar PV panels power the system, ensuring long-lasting operation in disaster areas.
+- **MATLAB & Simulink Simulations**: Includes simulations of robotic arm motion, solar panel energy management, and vehicle performance.
+- **Remote Control**: Wireless control system allowing operators to manage the robot's movement and operations remotely.
 
 ---
 
@@ -22,21 +22,21 @@ Using **SolidWorks**, **MATLAB**, and **Simulink**, the robotic arm, gripper, an
    - Gripper with 2 DOF for secure gripping of debris.
    
 2. **Robot Vehicle**: 
-   - Equipped with four wheels for smooth movement over rough terrains 🚜.
-   - Central placement of the robotic arm for balanced weight distribution and stability ⚖️.
+   - Equipped with four wheels for smooth movement over rough terrains.
+   - Central placement of the robotic arm for balanced weight distribution and stability.
 
 3. **Power Supply**: 
-   - Dual solar PV panels supply power, with batteries for backup 🔋. 
-   - MPPT (Maximum Power Point Tracking) technology maximizes energy efficiency ⚡.
+   - Dual solar PV panels supply power, with batteries for backup. 
+   - MPPT (Maximum Power Point Tracking) technology maximizes energy efficiency.
    
 4. **Sensors**:
-   - Cameras mounted on the robot arm provide environmental visuals to the operator 🎥.
+   - Cameras mounted on the robot arm provide environmental visuals to the operator.
 
 ---
 
 ## 🔍 Simulation Details
 - **SolidWorks**: Used for 3D modeling and precise design of the robotic system 🛠️.
-- **MATLAB & Simulink**: Simulations cover robotic arm movements, solar energy management, and the vehicle’s operational efficiency 💻.
+- **MATLAB & Simulink**: Simulations cover robotic arm movements, solar energy management, and the vehicle’s operational efficiency.
 
 ---
 
@@ -53,9 +53,9 @@ The robotic system is powered by solar panels mounted on the vehicle's sides, al
 ---
 
 ## 🚧 Future Improvements
-- **Image Recognition**: Integrating AI-based image recognition systems for enhanced autonomous operation 🧠.
-- **Advanced Gripper**: Designing a gripper capable of handling larger and more complex debris 🦾.
-- **Enhanced Power System**: Upgrading the solar power system for longer operational durations in low-light conditions 🌑.
+- **Image Recognition**: Integrating AI-based image recognition systems for enhanced autonomous operation.
+- **Advanced Gripper**: Designing a gripper capable of handling larger and more complex debris.
+- **Enhanced Power System**: Upgrading the solar power system for longer operational durations in low-light conditions.
 
 ---
 ## 👥 Contact 
