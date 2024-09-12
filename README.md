@@ -44,12 +44,6 @@ Using **SolidWorks**, **MATLAB**, and **Simulink**, the robotic arm, gripper, an
 The robotic system is powered by solar panels mounted on the vehicle's sides, allowing the robot to operate independently in remote areas. The arm’s trajectory is carefully controlled through signals sent to each joint, enabling precise pick-and-place operations for clearing debris. Operators can monitor the robot’s surroundings and control its movement via a wireless interface.
 
 ---
-## Tools and Softwares
-<a href="https://www.solidworks.com/" target="_blank" rel="noreferrer"> 
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/79/SolidWorks_Logo.svg" alt="solidworks" width="40" height="40"/> 
-</a>
-
----
 ## 🎯 Project Objectives
 - Develop a solar-powered robotic arm and vehicle capable of debris clearance in hazardous post-disaster environments.
 - Simulate the robot's operations in MATLAB and Simulink to validate its performance before real-world deployment.
