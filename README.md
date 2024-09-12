@@ -41,7 +41,7 @@ Using **SolidWorks**, **MATLAB**, and **Simulink**, the robotic arm, gripper, an
 ---
 
 ## 🛠️ How It Works
-The robotic system is powered by solar panels mounted on the vehicle's sides ☀️, allowing the robot to operate independently in remote areas. The arm’s trajectory is carefully controlled through signals sent to each joint, enabling precise pick-and-place operations for clearing debris 🗑️. Operators can monitor the robot’s surroundings and control its movement via a wireless interface 📶.
+The robotic system is powered by solar panels mounted on the vehicle's sides, allowing the robot to operate independently in remote areas. The arm’s trajectory is carefully controlled through signals sent to each joint, enabling precise pick-and-place operations for clearing debris. Operators can monitor the robot’s surroundings and control its movement via a wireless interface.
 
 ---
 
@@ -58,18 +58,10 @@ The robotic system is powered by solar panels mounted on the vehicle's sides ☀
 - **Enhanced Power System**: Upgrading the solar power system for longer operational durations in low-light conditions 🌑.
 
 ---
-
-## 👥 Contributors
-- **Anupa Alwis** (Simulation, System Design)
-- **Budara Abeysinghe** (Gripper Design, Solar Panel Modeling)
-- **Haritha Herath** (System Overview, Vehicle Design)
-
+## Contact 
+- For further clarifications about this project or if anyone interested in further development of this project contact us at [isurajithalwis@gmail.com](mailto:isurajithalwis@gmail.com).
 ---
 
-## 🙏 Acknowledgments
-Special thanks to **Dr. Ruwanthika** and **Professor Buddhika Jayasekara** for their guidance throughout the project.
-
----
 
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
