@@ -1,4 +1,4 @@
-# 🤖 Debris Clearance Robotic Arm Simulation
+# 🤖 Debris Clearance Robotic Ground Vehicle Simulation
 
 ## 🌟 Overview
 This project presents the development of an **unmanned ground vehicle** equipped with a robotic arm for post-disaster debris clearance. The system is designed to operate in hazardous environments where human intervention is either risky or impractical. Powered by **solar energy** ☀️, this robot can autonomously clear debris in disaster-stricken areas, assisting in search and rescue operations. 
