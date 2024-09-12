@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="12/06/23||05:27:15" using="Simscape Multibody Link Version 7.4" from="SolidWorks 31.0.1"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Robot arm solidworks" uid="Robot arm solidworks" version="169">
+<AssemblyFile name="Robot arm solidworks.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Robot arm part 1-1" uid="Robot arm part 1-1" entityUid="Robot arm part 1*:*Default">
+<Transform>
+<Rotation>0.84315400243098082 -0.53766116510368012 0.0034350726296553868 0.53766433725842222 0.84315897696725139 -1.9513098005897317e-16 -0.0028963123242283372 0.001846916048858373 0.9999941001206103</Rotation>
+<Translation>-0.055393014652964666 0.091120731207062808 -0.05846654286766105</Translation>
+</Transform>
+</Instance>
+<Instance name="Robot arm part 2-1" uid="Robot arm part 2-1" entityUid="Robot arm part 2*:*Default">
+<Transform>
+<Rotation>0.87330622204585118 -0.48715956606848176 0.0034350726296551804 0.48716244026812267 0.87331137447763041 -1.7694721423700777e-16 -0.0029998879996345675 0.0016734383647612091 0.99999410012061019</Rotation>
+<Translation>0.1376817122915443 0.20389490397419177 -0.029129595493214935</Translation>
+</Transform>
+</Instance>
+<Instance name="Robot arm stage-1" uid="Robot arm stage-1" entityUid="Robot arm stage*:*Default">
+<Transform>
+<Rotation>-0.99999410012061041 1.1982244486346807e-16 -0.0034350726296552038 1.1990865133107109e-16 1 0 0.0034350726296552038 0 -0.99999410012061041</Rotation>
+<Translation>-0.096756698184062337 0.015234001722924911 -0.048324395773056944</Translation>
+</Transform>
+</Instance>
+<Instance name="Gripper right hand-1" uid="Gripper right hand-1" entityUid="Gripper right hand*:*Default">
+<Transform>
+<Rotation>0.36288700230586796 0.87330622204585107 0.32503733030755638 -0.6546090155355041 0.48716244026812261 -0.57806556165511702 -0.66317423075470838 -0.0029998879996346573 0.74845904385937534</Rotation>
+<Translation>0.2452831805609603 0.25530457125486117 -0.024499187032926448</Translation>
+</Transform>
+</Instance>
+<Instance name="Robot arm tank stage-2" uid="Robot arm tank stage-2" grounded="true" entityUid="Robot arm tank stage*:*Default">
+<Transform>
+<Rotation>1.2246467991473532e-16 1 0 -1 1.2246467991473532e-16 0 0 0 1</Rotation>
+<Translation>-0.096756698184062365 0.015234001722924911 -0.048324395773056944</Translation>
+</Transform>
+</Instance>
+<Instance name="Gripper Hand right-1" uid="Gripper Hand right-1" entityUid="Gripper Hand right*:*Default">
+<Transform>
+<Rotation>0.3562064673458234 -0.87330622204585118 0.33234499418076269 -0.63432448846881451 -0.48716244026812244 -0.60025427955224497 0.68611179551862078 0.0029998879996341109 -0.727489934447346</Rotation>
+<Translation>0.25405056703937057 0.26017619565754213 -0.014536950189580837</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Robot arm stage-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Robot arm tank stage-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot arm stage-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot arm tank stage-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Robot arm part 1-1</Uid>
+</InstancePath>
+<Position>-0.046135379715742594 0.0046475445105114005 0.025000000000000001</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Robot arm stage-1</Uid>
+</InstancePath>
+<Position>0 0.054999999999999993 -0.015000000000000034</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot arm part 1-1</Uid>
+</InstancePath>
+<Position>-0.046135379715742594 0.0046475445105114005 0.025000000000000001</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot arm stage-1</Uid>
+</InstancePath>
+<Position>0 0.054999999999999993 -0.015000000000000034</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Robot arm part 1-1</Uid>
+</InstancePath>
+<Position>0.15386462028425749 0.004647544510511456 0.025000000000000001</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Robot arm part 2-1</Uid>
+</InstancePath>
+<Position>-0.070139472480561016 0.0092078060679981616 -0.004999999999999994</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Robot arm part 2-1</Uid>
+</InstancePath>
+<Position>0.11800000000000008 -0.0075146886929792489 0.014992294676675377</Position>
+<Axis>1 1.0041067369931378e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Gripper Hand right-1</Uid>
+</InstancePath>
+<Position>0 0.010999999999999954 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot arm part 2-1</Uid>
+</InstancePath>
+<Position>0.11800000000000008 -0.0075146886929792489 0.014992294676675377</Position>
+<Axis>1 1.0041067369931378e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gripper Hand right-1</Uid>
+</InstancePath>
+<Position>0 0.010999999999999954 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Robot arm part 2-1</Uid>
+</InstancePath>
+<Position>0.11800000000000008 -0.007514688692979235 0.004999999999999994</Position>
+<Axis>1 1.0041067369931378e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Gripper right hand-1</Uid>
+</InstancePath>
+<Position>0 -0.00099999999999994538 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot arm part 2-1</Uid>
+</InstancePath>
+<Position>0.11800000000000008 -0.007514688692979235 0.004999999999999994</Position>
+<Axis>1 1.0041067369931378e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gripper right hand-1</Uid>
+</InstancePath>
+<Position>0 -0.00099999999999994538 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Gripper Hand right" uid="Gripper Hand right*:*Default" version="242">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Gripper Hand right.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0065596454606954829</Mass>
+<CenterOfMass>0.038008666057827128 0.0050237068965517254 0.0094345366224947644</CenterOfMass>
+<Inertia>2.3493529758842009e-06 4.6848499013611893e-06 2.4460610472489417e-06 1.4671538116910228e-09 -1.5528147209063581e-06 5.9106834299708753e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Gripper Hand right_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Gripper right hand" uid="Gripper right hand*:*Default" version="124">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Gripper right hand.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0066638097751150691</Mass>
+<CenterOfMass>0.039451743914591143 0.0049766636741442683 0.0053772460430572856</CenterOfMass>
+<Inertia>2.115823963964042e-06 4.9116219196781372e-06 2.9080982646470779e-06 -8.3620927493805568e-10 -1.5806784369583088e-06 -6.1350947882427389e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Gripper right hand_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Robot arm part 1" uid="Robot arm part 1*:*Default" version="127">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Robot arm part 1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.090995574287564246</Mass>
+<CenterOfMass>0.052138386520590184 0.0046475445105114239 0.010215779220458413</CenterOfMass>
+<Inertia>6.5595536409031474e-06 0.00038557747368436339 0.00038490103209117173 0 -1.9973899291831039e-06 0</Inertia>
+</MassProperties>
+<GeometryFile name="Robot arm part 1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Robot arm part 2" uid="Robot arm part 2*:*Default" version="197">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Robot arm part 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0894953729652819</Mass>
+<CenterOfMass>0.029632394770957839 0.0089333346865426017 0.0097806012613027779</CenterOfMass>
+<Inertia>6.3993997647242145e-06 0.00036528586585205891 0.00036536221563664151 5.3856495586941573e-09 -1.9589968893620069e-06 2.0499706343263282e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Robot arm part 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Robot arm stage" uid="Robot arm stage*:*Default" version="386">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Robot arm stage.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.071837608730292102</Mass>
+<CenterOfMass>4.1222608231279391e-13 0.016093724034618458 1.8152541033327725e-08</CenterOfMass>
+<Inertia>6.8461059984171595e-05 6.7544634459021401e-05 5.2070280086695313e-05 2.13151850512924e-10 1.1102033390310967e-11 0</Inertia>
+</MassProperties>
+<GeometryFile name="Robot arm stage_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Robot arm tank stage" uid="Robot arm tank stage*:*Default" version="129">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Robot arm tank stage.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14254976665663685</Mass>
+<CenterOfMass>0.0074999999999999997 0 0</CenterOfMass>
+<Inertia>0.00021560652206816325 0.00011047606915889355 0.00011047606915889358 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Robot arm tank stage_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
