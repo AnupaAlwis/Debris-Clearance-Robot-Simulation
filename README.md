@@ -58,8 +58,8 @@ The robotic system is powered by solar panels mounted on the vehicle's sides, al
 - **Enhanced Power System**: Upgrading the solar power system for longer operational durations in low-light conditions 🌑.
 
 ---
-## Contact 
-- For further clarifications about this project or if anyone interested in further development of this project contact us at [isurajithalwis@gmail.com](mailto:isurajithalwis@gmail.com).
+## 👥 Contact 
+For further clarifications about this project or if anyone interested in further development of this project contact us at [isurajithalwis@gmail.com](mailto:isurajithalwis@gmail.com).
 ---
 
 
