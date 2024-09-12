@@ -47,7 +47,7 @@ The robotic system is powered by solar panels mounted on the vehicle's sides, al
 ## Tools and Softwares
 <a href="https://www.solidworks.com/" target="_blank" rel="noreferrer"> 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/SolidWorks_Logo.svg" alt="solidworks" width="40" height="40"/> 
-</a> 
+</a>
 
 ---
 ## 🎯 Project Objectives
