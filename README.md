@@ -62,5 +62,5 @@ The robotic system is powered by solar panels mounted on the vehicle's sides, al
 ---
 
 
-## 📜 License
+## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
